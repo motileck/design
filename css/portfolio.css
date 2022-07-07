@@ -1,0 +1,172 @@
+body{
+    background: #2B2E32;
+    font-family: 'Roboto';
+}
+h1{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 140%;
+    text-align: center;
+    color: #B7C1AE;
+}
+h2{
+    margin: 0%;
+    padding: 0%;
+}
+p{
+    margin: 0;
+    padding: 0%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+section {
+    padding: 75px 20px 75px ;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+}
+
+
+
+nav li{
+    display: inline;
+    color: #000;
+    margin-right: 50px;
+
+}
+nav ul li{
+    vertical-align: middle;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135%;
+    color: #B7C1AE;
+    transition: 0.5s all;
+}
+
+.btn-contact{
+    margin-right: 70px;
+}
+
+.btn-contact a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #B7C1AE;
+    text-decoration: none;
+    transition: 0.5s all;
+    
+    
+}
+.btn-contact a:hover{
+    color: #000;
+}
+nav ul li a:hover{
+    color: #fff;
+}
+#header {
+    padding: 20px;
+}
+#header .menu-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+#header  .btn-contact {
+    border: none;
+    border-radius: 2px;
+    padding: 12px 20px;
+    background: #4dad32;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+#header img{
+    width: 100%;
+    max-width: 130px;
+}
+#hello .block-image {
+    position: relative;
+    overflow: hidden;
+}
+#hello img{
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: 10;
+    transition: 3s all;
+}
+#hello h1 {
+    position: absolute;
+    text-align: center;
+    font-family: 'El Messiri';
+    font-weight: 700;
+    font-size: 64px;
+    color: #B7C1AE;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hello .block-image:hover img{
+    transform: scale(1.5);
+}
+.list_of_portfolio{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+    position: relative;
+}
+
+.portfolio__inner:first-child{
+    margin-right:33px;
+}
+
+.btn__port__img{
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #2B2E32;
+    line-height: 135%;
+    text-transform: uppercase;
+    
+    background-color: #4FAE32;
+    padding: 6px 12px 5px;
+    border-radius: 5px;
+    
+    position: absolute;
+    top: 50px;
+    margin-left: 53px;
+    text-decoration: none;
+}
+
+.port__img__text{
+    color: #B7C1AE;
+    font-family: 'El Messiri';
+    font-size: 21px;
+    
+    position: absolute;
+    
+    top: 315px;
+    margin-left: 53px;
+}
+
